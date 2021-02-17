@@ -118,15 +118,3 @@ let makeFooter = function() {
     finalTh.textContent = megaTotal;
 }
 makeFooter();
-
-
-
-
-
-
-
-
-
-
-
-
