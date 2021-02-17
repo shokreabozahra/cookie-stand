@@ -9,6 +9,8 @@ let seattleCookies = {
     hourlySales: [],
     dailySales: 0,
 
+
+
     randomCust: function () {
         let range = seattleCookies.maxCust - seattleCookies.minCust;
         let randomCount = Math.random() * range + seattleCookies.minCust;
