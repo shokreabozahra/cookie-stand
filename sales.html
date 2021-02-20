@@ -1,36 +1,52 @@
-
 <!DOCTYPE html>
 <html >
 <head>
+    
+        
+      
 
     <title>Salamon Cookies</title>
-    <style>
-        table{
-            border: solid 1px black;
-           display: block; border: none;
-           color: rgb(0, 0, 0);
-        }
-
-        th{
-           border: solid 1px black;
-          color: rgb(182, 3, 3);
-        }
-        td{
-           border: solid 1px black;
-            border-collapse: collapse;  
-            color: rgba(185, 0, 231, 0.918);
-        }
-        
-
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+    
     
 </head>
 <body>
-<div id="parent">
     
-</div>
-<a href="https://github.com/shokreabozahra/cookie-stand/blob/main/index.html">link to page index.html</a>
-   
+    <main>
+        
+        <form action = "" id="shop_data_form">
+            <fieldset>
+                <label for ="nameField">Location:</label>
+                <input type="text" id = "nameField" name = "nameField"  placeholder="Enter store location name" autocomplete = "off" >
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for ="minCustsPerHour">Min cust per hour?:</label>
+                <input type="number" id = "minCustsPerHour"name="minCustsPerHour" placeholder="Enter minimum customers" minlength="1" min="0">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for ="maxCustsPerHour">max cust an hour?:</label>
+                <input type="number" name="maxCustsPerHour" placeholder="Enter maximum customers an hour for that store" minlength="1" min="0">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for ="avgCookiesPerCust">Avg Cookies per Cust?:</label>
+                <input type="number"  name="avgCookiesPerCust" placeholder="Enter the average number of cookies per customers for that store" minlength="1" step="any" min=0>
+            </fieldset>
+            <br>
+            <button id="submit_btn" type="submit">add store info</button>
+        </form>
+        <fieldset>
+        <div id="parent">
+            
+        </div>
+    </fieldset>
+
+</main>
+<footer>
+
+</footer>
 </body>
 <script src="js/app.js">
 

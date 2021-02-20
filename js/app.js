@@ -7,6 +7,7 @@ const hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm',
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 let shops = [];
+
 function Shop(locationName, minCustomers, maxCustomers, avgCookies) {
     this.locationName = locationName;
     this.minCustomers = minCustomers;
@@ -42,8 +43,9 @@ let lima = new Shop('Lima', 2, 16, 4.6);
 
 console.log(shops);
 
+
 let parent = document.getElementById('parent');
-console.log(parent);
+//console.log(parent);
 let table = document.createElement('table');
 parent.appendChild(table);
 
@@ -118,3 +120,7 @@ let makeFooter = function() {
     finalTh.textContent = megaTotal;
 }
 makeFooter();
+
+
+
+
