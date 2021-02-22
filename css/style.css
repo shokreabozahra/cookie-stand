@@ -1,0 +1,70 @@
+table{
+    border: solid 1px black;
+   
+   background-color:  rgb(250, 240, 246);
+   border: 20px solid #ffa07a;
+   padding: 4px 12px;
+   font-size: 20px;
+   margin-right: 300px;
+
+}
+
+th{
+   border: solid 1px black;
+  color: rgb(23, 150, 129);
+}
+td{
+   border: solid 1px black;
+    border-collapse: collapse;  
+    color: rgba(212, 108, 238, 0.918);
+}
+
+
+
+input[type="text"] {
+    border: solid 1px rgb(255, 179, 179);
+    padding: 8px 18px;
+    font-size: 18px;
+    background: rgb(0, 0, 0);
+    color: rgb(241, 21, 21);
+  }
+
+  input[type="number"] {
+    border: solid 1px #000;
+    padding: 8px 18px;
+    font-size: 18px;
+    background: #000;
+    color: rgb(255, 0, 0);
+  }
+
+  button {
+    border: none;
+    background: #000;
+    color: rgb(233, 2, 2);
+  }
+  fieldset {
+    padding: 10px;
+    text-align: center;
+    
+    }
+    form
+{  
+    background-color: #ffa07a;
+}
+#parent{
+    text-align: center;
+}
+div#parent {
+    
+    margin-left: 200px;
+}
+body{
+    background-color:#f795f2 ;
+    text-align:center;
+    font-size: 12px;
+    font-family: 'Dancing Script', cursive;
+    
+    
+    
+    
+}
