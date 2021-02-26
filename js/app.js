@@ -47,7 +47,7 @@ console.log(shops);
 let parent = document.getElementById('parent');
 //console.log(parent);
 let table = document.createElement('table');
-parent.appendChild(table);
+//parent.appendChild(table);
 
 function makeHeader() {
     
